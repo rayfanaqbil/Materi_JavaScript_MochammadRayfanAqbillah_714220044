@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pengunaan Objek</title>
+</head>
+<body>
+<script language="JavaScript">
+	var tanggal =new Date();
+	var hari=tanggal.getDay();
+	var tgl=tanggal.getDate();
+	var bln=tanggal.getMonth();
+	var thn=tanggal.getYear();
+	var dtk=tanggal.getSeconds();
+	var mnt=tanggal.getMinutes();
+	var jam=tanggal.getHours();
+
+	document.write("<pre>");
+	document.write("Hari ini Hari ke : "+hari+" <br>");
+	document.write("Hari ini tanggal : "+tgl+" <br>");
+	document.write("Hari ini Bulan 	 : "+bln+" <br>");
+	document.write("Hari ini Tahun 	 :"+thn+" <br>");
+	document.write("Sekarang Jam 	 :"+jam+":"+mnt+":"+dtk);
+	document.write("</pre>");
+</script>	
+</body>
+</html>
